@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.easyway2in.mysqldbdemo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"/>
+        <activity android:name=".Menu"/>
+        <activity android:name=".Prc.PrcActivity">
+        </activity>
+        <activity android:name=".Matherboard.Matherboard">
+        </activity>
+        <activity android:name=".Ram.RamCl">
+        </activity>
+        <activity android:name=".VCArd.VideoCard">
+        </activity>
+        <activity android:name=".Cooling.Cooling">
+        </activity>
+        <activity android:name=".HDD.HDD">
+        </activity>
+        <activity android:name=".SSD.SSD">
+        </activity>
+        <activity android:name=".pSupply.PowerSupply">
+        </activity>
+        <activity android:name=".Casee.Case">
+        </activity>
+        <activity android:name=".Settings">
+        </activity>
+        <activity android:name=".RecConfig.RecConfig">
+        </activity>
+        <activity android:name=".RecConfig.Office">
+        </activity>
+        <activity android:name=".RecConfig.Game">
+        </activity>
+        <activity android:name=".RecConfig.Media">
+        </activity>
+        <activity android:name=".RecConfig.HDDConfig">
+        </activity>
+        <activity android:name=".RecConfig.SSDConfig">
+        </activity>
+        <activity android:name=".RecConfig.Itog">
+        </activity>
+    </application>
+
+</manifest>

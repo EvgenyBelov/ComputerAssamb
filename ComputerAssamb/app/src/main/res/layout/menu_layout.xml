@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Меню"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/btmenu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рекомендуемые конфигурации"
+        android:onClick="RecConf"/>
+
+    <Button
+        android:id="@+id/btmenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Гибкое создание конфигурации"
+        android:onClick="GMENU"/>
+
+    <Button
+        android:id="@+id/btmenu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Простое создание конфигурации" />
+
+    <Button
+        android:id="@+id/btmenu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="инструкции и уроки" />
+
+    <Button
+        android:id="@+id/btmenu5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="мои конфигурации" />
+
+    <Button
+        android:id="@+id/btmenu6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="выйти из аккаунта"
+        android:onClick="Exit"/>
+
+    <Button
+        android:id="@+id/btmenu7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="О программе" />
+</LinearLayout>

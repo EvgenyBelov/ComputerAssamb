@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MySqlDbDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="login_form">Авторизуйтесь или зарегистрируйтесь, чтобы создавать и сохранять свои конфигурации</string>
+</resources>
